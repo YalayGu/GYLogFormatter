@@ -14,7 +14,7 @@
 		93E05EF32302814700C4112C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E05EF22302814700C4112C /* main.m */; };
 		93E05EFD2302814700C4112C /* ResponseLogParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E05EFC2302814700C4112C /* ResponseLogParserTests.m */; };
 		93E05F082302814700C4112C /* ResponseLogParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E05F072302814700C4112C /* ResponseLogParserUITests.m */; };
-		93E05F16230281A900C4112C /* GYLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E05F15230281A900C4112C /* GYLogFormatter.m */; };
+		93E05F1A23029A4100C4112C /* GYLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E05F1923029A4100C4112C /* GYLogFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		93E05F032302814700C4112C /* ResponseLogParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponseLogParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E05F072302814700C4112C /* ResponseLogParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseLogParserUITests.m; sourceTree = "<group>"; };
 		93E05F092302814700C4112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93E05F15230281A900C4112C /* GYLogFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYLogFormatter.m; sourceTree = "<group>"; };
+		93E05F1923029A4100C4112C /* GYLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLogFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				93E05EE42302814300C4112C /* AppDelegate.m */,
 				93E05EE62302814300C4112C /* ViewController.h */,
 				93E05EE72302814300C4112C /* ViewController.m */,
-				93E05F15230281A900C4112C /* GYLogFormatter.m */,
+				93E05F1823029A4100C4112C /* GYLogFormatter */,
 				93E05EE92302814300C4112C /* Main.storyboard */,
 				93E05EEC2302814700C4112C /* Assets.xcassets */,
 				93E05EF12302814700C4112C /* Info.plist */,
@@ -131,6 +131,14 @@
 			);
 			path = ResponseLogParserUITests;
 			sourceTree = "<group>";
+		};
+		93E05F1823029A4100C4112C /* GYLogFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				93E05F1923029A4100C4112C /* GYLogFormatter.m */,
+			);
+			path = GYLogFormatter;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -262,8 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E05EE82302814300C4112C /* ViewController.m in Sources */,
+				93E05F1A23029A4100C4112C /* GYLogFormatter.m in Sources */,
 				93E05EF32302814700C4112C /* main.m in Sources */,
-				93E05F16230281A900C4112C /* GYLogFormatter.m in Sources */,
 				93E05EE52302814300C4112C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
