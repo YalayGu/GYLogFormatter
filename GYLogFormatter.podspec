@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GYLogFormatter"
-  spec.version      = "1.0.0"
+  spec.version      = "0.0.1"
   spec.summary      = "A library to deal with responses from server or other contain Chinese, console log unicode style that is hard to read."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}", "GYLogFormatter.m"
+  spec.source_files  = "GYLogFormatter/**/*.{m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
